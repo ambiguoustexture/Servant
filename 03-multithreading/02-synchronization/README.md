@@ -30,7 +30,7 @@ int pthread_rwlock_tryrdlock(pthread_rwlock_t *rwlock);
 
 ### Deadlock
 > A thread will deadlock itself if it tries to lock the same mutex twice, 
-- un-lock
+- un-unlock
 - re-lock
 > but there are less obvious ways to create deadlocks with mutexes. 
 > For example, when we use more than one mutex in our programs, 
